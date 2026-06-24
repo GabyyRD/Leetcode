@@ -12,3 +12,7 @@ left join Activity as dia2
 select
     round(count(CASE WHEN rn = 2 AND jogador1 = jogador2 then jogador2 END)/count(distinct jogador1), 2) as fraction
 from sequencia
+
+
+# estudar mais esse, demorei muito para fazer
+# ver formas mais otimizadas de fazer
